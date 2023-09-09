@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000;
 //start mongoose server
 mongoose.connect(
   process.env.MONGO_URL ||
-    "mongodb+srv://dishaCableNetwork:Avi799Neek@dishacablenetwork.jzy0nou.mongodb.net/",
+    "mongodb+srv://userName:password@userName.jzy0nou.mongodb.net/",
   { useNewUrlParser: true }
 );
 //check connection with mongoose server
